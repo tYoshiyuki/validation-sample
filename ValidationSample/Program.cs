@@ -12,7 +12,7 @@ namespace ValidationSample
             // 検証用データの準備
             var blogs = new List<Blog>
             {
-                new Blog {Author = "TaroTaroTaroTaroTaroTaro", Name = "Hoge"},
+                new Blog {Author = "TaroTaroTaroTaroTaroTaro", Name = "ほげ"},
                 new Blog {Id = 2, Author = null, Name = "Fuga"},
                 new Blog {Id = 3, Author = "Jiro", Name = null}
             };

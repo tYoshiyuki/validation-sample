@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Text;
+using ValidationSample.Attributes;
 
 namespace ValidationSample.Models
 {
@@ -11,6 +12,7 @@ namespace ValidationSample.Models
         public int Id { get; set; }
 
         [Required]
+        [AlphaNumeric]
         public string Name { get; set; }
 
         [Required]
